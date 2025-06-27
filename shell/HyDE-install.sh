@@ -13,4 +13,4 @@ cd ~/HyDE/Scripts
 ./install.sh
 
 echo -e "\n✅ HyDE 安装完成！"
-echo "请重启系统或执行 'startx' 启动 HyDE"
+echo "请重启系统以确保改动生效！"
