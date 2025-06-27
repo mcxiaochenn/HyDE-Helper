@@ -11,13 +11,13 @@ Hybrid Desktop Environment (HyDE) 的便捷安装/更新助手，专为 Arch Lin
 ## 安装方法
 ### 使用 curl 直接执行安装脚本
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/mcxiaochenn/HyDE-Helper/main/HyDE-install.sh)"
+bash -c "$(curl -fsSL https://github.com/mcxiaochenn/HyDE-Helper/raw/refs/heads/main/shell/HyDE-install.sh)"
 ```
 
 ## 更新方法
 ### 使用 curl 直接执行更新脚本
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/mcxiaochenn/HyDE-Helper/main/HyDE-update.sh)"
+bash -c "$(curl -fsSL https://github.com/mcxiaochenn/HyDE-Helper/raw/refs/heads/main/shell/HyDE-update.sh)"
 ```
 
 ## 注意事项
