@@ -1,6 +1,6 @@
 # HyDE-Helper 🚀
 
-Hybrid Desktop Environment (HyDE) 的便捷安装/更新助手，专为 Arch Linux 用户设计。
+Hyprland Development Environment (HyDE) 的便捷安装/更新助手，专为 Arch Linux 用户设计。
 
 ## 功能特点
 - 一键安装 HyDE 及所有依赖
