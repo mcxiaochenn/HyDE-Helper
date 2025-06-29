@@ -8,18 +8,26 @@ Hyprland Development Environment (HyDE) 的便捷安装/更新助手，专为 Ar
 - 中文提示友好交互
 - 无需下载脚本直接执行
 
-## 安装方法
-### 使用 curl 直接执行安装脚本
+## 最新安装
+- 安装最新主分支的版本
+### 安装脚本
 ```bash
-bash -c "$(curl -fsSL https://github.com/mcxiaochenn/HyDE-Helper/raw/refs/heads/main/shell/HyDE-install.sh)"
+bash -c "$(curl -fsSL https://github.com/mcxiaochenn/HyDE-Helper/raw/refs/heads/main/shell/master/HyDE-install.sh)"
 ```
-
-## 更新方法
-### 使用 curl 直接执行更新脚本
+### 更新脚本
 ```bash
-bash -c "$(curl -fsSL https://github.com/mcxiaochenn/HyDE-Helper/raw/refs/heads/main/shell/HyDE-update.sh)"
+bash -c "$(curl -fsSL https://github.com/mcxiaochenn/HyDE-Helper/raw/refs/heads/main/shell/master/HyDE-update.sh)"
 ```
-
+## 稳定安装
+- 安装最新稳定构建的版本
+### 安装脚本
+```bash
+bash -c "$(curl -fsSL https://github.com/mcxiaochenn/HyDE-Helper/raw/refs/heads/main/shell/latest/HyDE-install.sh)"
+```
+### 更新脚本
+```bash
+bash -c "$(curl -fsSL https://github.com/mcxiaochenn/HyDE-Helper/raw/refs/heads/main/shell/latest/HyDE-update.sh)"
+```
 ## 注意事项
 1. 仅适用于 Arch Linux 及其衍生发行版
 2. 需要 sudo 权限安装依赖包
