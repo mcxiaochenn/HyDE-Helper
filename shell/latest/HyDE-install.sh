@@ -2,12 +2,12 @@
 # HyDE 安装脚本
 set -e
 
-echo "🛠️ 正在安装必要依赖 (git 和 base-devel)..."
-sudo pacman -S --needed --noconfirm git base-devel curl
+echo "🛠️ 正在安装必要依赖 (git、base-devel、curl 和 jq)..."
+sudo pacman -S --needed --noconfirm git base-devel curl jq
 
 # 获取最新稳定版本号
 echo "🔍 正在获取最新稳定版本信息..."
-LATEST_TAG=$(curl -s https://api.github.com/repos/HyDE-Project/HyDE/releases/latest | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+LATEST_TAG=$(curl -s https://api.github.com/repos/HyDE-Project/HyDE/releases/latest | jq -r '.tag_name')
 echo "✅ 最新稳定构建版本: $LATEST_TAG"
 
 echo "📥 克隆 HyDE 项目到 ~/HyDE (完整克隆)..."
